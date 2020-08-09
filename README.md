@@ -2,14 +2,18 @@
 
 Aqui estan los ejercicios de html, css, bootstrap y javascript, hay una rama con el nombre de cada ejercicio. 
 
-### Si lo usas con gitpod ejecute en la terminal las siguiente instrucciones. 
-1. pip3 install flask.
-2. python3 server.py.
+## 💻 Installation
 
-## 4geeks Academy projects 
+1. Empieza un proyecto nuevo vacio.
+2. Crea un fichero `app.js` que va a contener tu codigo.
+3. Agrega tu codigo dentro del fichero.
+4. Puedes utilizar `console.log("Any string");` para imprimir un mensaje en la consola.
+5. Ejecuta tu codigo typeando en la linea de comandos: `$ node app.js`.
 
-Here are the html, css, bootstrap and javascript exercises, there is a branch with the name of each exercise.
+## 💻 Installation
 
-### If you use it with gitpod, execute the following instructions in the terminal.
-1. pip3 install flask.
-2. python3 server.py.
+1. Start a new empty project.
+2. Create one `app.js` javascript file.
+3. Add your code inside your app.js file.
+4. You have to use `console.log("Any string");` to show something on the console.
+5. Run your code by typing: `$ node app.js`.
