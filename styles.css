@@ -1,0 +1,88 @@
+body{
+    background: rgb(230, 230, 230) !important;
+}
+.icon-instagram{
+    font-size: 30px;
+}
+.borders{
+    border:1px solid black;
+}
+.img-uno{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/1025/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-dos{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/10/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-tres{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/20/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.img-cuatro{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/30/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.img-cinco{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/40/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.img-seis{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/50/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.img-siete{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/70/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.img-ocho{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/80/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.img-nueve{
+    border: 0px solid red;
+    background-image: url(https://picsum.photos/id/29/400/300);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
