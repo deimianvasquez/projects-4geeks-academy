@@ -1,0 +1,94 @@
+html body{
+    background-color: green;
+}
+main{
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius:20px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+.card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+}
+.card p{
+    font-size: 10rem;
+    font-family: Times New Roman, serif;
+    margin: 0px;
+}
+
+.card-heart::before{
+    content: "♥";
+    position: absolute;
+    color:red;
+    font-size: 100px;
+    left: 15px;
+    top: 8px;
+}
+.card-heart::after{
+    content: "♥";
+    position: absolute;
+    color:red;
+    font-size: 100px;
+    bottom: 8px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+
+.card-spade::before{
+    content: "♠";
+    position: absolute;
+    color:black;
+    font-size: 100px;
+    left: 15px;
+    top: 8px;
+}
+.card-spade::after{
+    content: "♠";
+    position: absolute;
+    color:black;
+    font-size: 100px;
+    bottom: 8px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+.card-club::before{
+    content: "♣";
+    position: absolute;
+    color:black;
+    font-size: 100px;
+    left: 15px;
+    top: 8px;
+}
+.card-club::after{
+    content: "♣";
+    position: absolute;
+    color:black;
+    font-size: 100px;
+    bottom: 8px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+
+.card-diamond::before{
+    content: "♦";
+    position: absolute;
+    color:red;
+    font-size: 100px;
+    left: 15px;
+    top: 8px;
+}
+.card-diamond::after{
+    content: "♦";
+    position: absolute;
+    color:red;
+    font-size: 100px;
+    bottom: 8px;
+    right: 15px;
+    transform: rotate(180deg);
+}
