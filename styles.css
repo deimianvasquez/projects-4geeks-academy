@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+main{
+    border: 1px solid black;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+header > div{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+header > div:nth-child(2){
+    font-size: 2rem;
+}
+header > div > div:nth-child(1){
+    font-size: 2rem;
+    margin: 0px 15px 0px 0px;
+}
+header > div > div:nth-child(2)> p:nth-child(1){
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+header > div > div:nth-child(2)> p:nth-child(2){
+    font-size: 0.9rem;
+}
+section div{
+    background-image: url("https://picsum.photos/id/112/400/300");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    margin: 0px 0px 30px 0px;
+}
+footer > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+footer > div:nth-child(1) > div{
+    padding: 5px 12px 0px 10px;
+    font-size: 1.7rem;
+}
+footer > div:nth-child(2) > div{
+    color: black;
+}
+footer > div:nth-child(2) > p{
+    padding: 8px;
+    font-size: 0.9rem;
+}
+footer > div:nth-child(2) > p > span{
+    color: black;
+    font-weight: bold;
+}
